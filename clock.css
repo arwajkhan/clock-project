@@ -165,7 +165,7 @@ span#time-h {
 }
 
 #img-container {
-      background-image: url("/images/morning.jpg");
+      background-image: url("./images/morning.jpg");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
