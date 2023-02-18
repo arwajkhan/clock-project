@@ -114,7 +114,7 @@
                 </div>
             </div>
             <div class="time">
-                <button class="set-time" onclick="setTime()">SET TIME !!</button>
+                <button class="set-time" onclick="setTime()">Set Time</button>
             </div>
 
         </div>
@@ -123,25 +123,7 @@
         <div class="right-container">
 
             <div class="top-time">
-                <span id="time-h">TIME</span>
-                <div class="h-m-s">
-                    <div class="div1">
-                        <span id="hours">00</span>
-                        <p>hrs</p>
-                    </div>
-                    <div class="div2">
-                        <span id="minutes">00</span>
-                        <p>min</p>
-                    </div>
-                    <div class="div3">
-                        <span id="seconds">00</span>
-                        <p>sec</p>
-                    </div>
-                    <div class="div4">
-                        <span id="am">AM</span>
-                    </div>
-                </div>
-
+                <div id = "clock" onload="currentTime()"></div>
             </div>
 
             <div class="change-cnt">
